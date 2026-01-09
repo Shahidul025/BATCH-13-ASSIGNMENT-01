@@ -254,3 +254,81 @@ nav .menu a{
     font-weight: 400px;
     color: #627382;
 }
+
+
+.image{
+    display: flex;
+    /* border: 1px solid red; */
+    padding-left: 120px;
+    margin-right: 60px;
+    padding-top: 120px;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.second-card{
+    display: flex;
+}
+
+.image .second-card{
+    padding-left: 120px;
+    margin: 60px ;
+    padding-right: 120px;
+   
+}
+
+.image .second-card h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.image .second-card .text-and-icons p{
+    padding-left: 30px;
+    
+}
+
+.image .second-card .text-and-icons img{
+    padding-right: 30px;
+    
+}
+
+.access-card{
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 120px;
+  background-color: #F7F6F2;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+
+.access-card .btn{
+    padding: 10px 16px;
+    border-radius: 5px;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer */
+
+
+
+.section-footer{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    color: #001931;
+    align-items: center;
+    
+    justify-content: center;
+    text-align: center;
+   
+}
