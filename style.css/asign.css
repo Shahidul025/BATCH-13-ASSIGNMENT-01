@@ -1,3 +1,19 @@
-body{
-    background-color: blue;
+
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+.nav-container img{
+    padding-left: 120px;
+    padding-top: 16px;
+}
+
+.nav-container a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
