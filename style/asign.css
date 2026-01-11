@@ -319,6 +319,9 @@ nav .menu a{
 
 
 
+/* work section */
+
+
 
 .work{
      width: 1360px;
@@ -379,15 +382,42 @@ nav .menu a{
 /* footer */
 
 
-
-.section-footer{
-    display: flex;
-    /* border: 1px solid red; */
-    margin: 0 auto;
-    color: #001931;
-    align-items: center;
-    
-    justify-content: center;
+.footer{
+    width: 1785px;
+    height: 348px;
+   
+    background-color: #001931;
+    padding-left: 120px;
+    padding-top: 120px;
     text-align: center;
+    
+}
+
+.footer .logo-1 img{
+    width: 139px;
+    height: 60px;
+
+}
+
+
+
+.footer  .second img{
+    height: 24px;
+    width: 24px;
    
 }
+
+.footer .logo-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-right: 120px;
+}
+
+
+.footer p {
+    padding-top: 80px;
+    color: white;
+}
+
